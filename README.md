@@ -44,7 +44,7 @@ printSquare(5);
 8. printSquare done  // popped
 
 ```
-2.Asynchronous call stack
+##2.Asynchronous call stack
 
 When JavaScript encounters an asynchronous function like:
 
@@ -162,7 +162,7 @@ Imagine the **call stack** is a **chef** making food.
 - When the chef finishes all current dishes, he checks the notes (task/microtask queue) and continues.
 
 
-3. Difference between the Task Queue and the Microtask Queue ?
+##3. Difference between the Task Queue and the Microtask Queue ?
 
 The JavaScript Event Loop processes:
 
@@ -279,7 +279,7 @@ CopyEdit
 
 ```
 
-4. Event loop
+## 4. Event loop
 
 The **Event Loop** is the "traffic controller" of JavaScript’s concurrency model.
 
